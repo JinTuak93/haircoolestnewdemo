@@ -12,4 +12,5 @@ export function middleware(req: NextRequest) {
     );
 }
 
+// config
 export const config = {};
