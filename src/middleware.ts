@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 
+// middleware
 export function middleware(req: NextRequest) {
   const { pathname } = req.nextUrl;
   if (pathname === "/admin")
